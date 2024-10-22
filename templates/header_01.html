@@ -1,0 +1,83 @@
+<style>
+    .header {
+        overflow: hidden;
+        background-color: #fdfdfd;
+        padding: 20px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .header a {
+        float: left;
+        color: rgb(128, 128, 128);
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 4px;
+    }
+
+    .header a.logo {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .header a:hover {
+        background-color: #dddddd02;
+        color: rgb(63, 63, 63);
+        opacity: .5;
+        transition: all ease-in-out 1s 1s;
+    }
+
+    /* Style the active/current link*/
+    .header a.active {
+        background-color: rgba(202, 182, 255, 0.096);
+        color: rgb(139, 139, 139);
+    }
+
+    /* Float the link section to the right */
+    .header-right {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 769px) {
+        .header {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .header a {
+            float: none;
+            display: block;
+
+        }
+
+        .header-right {
+            flex-direction: column;
+        }
+    }
+</style>
+
+<div class="header ">
+    <div class="main-container">
+        <a href="/" class="logo">
+            <img src="/images/logo-fxmotion-3.png" width="180px" alt="">
+        </a>
+        <div class="header-right">
+            <a class="" href="/" title="مرجع تخصصی برای ادیتورها">مرجع تخصصی برای ادیتورها</a>
+            <!-- <a class="active" href="https://youtube.com/@fxmotion-ir" title="کانال یوتیوب افیکس موشن">کانال یوتیوب</a> -->
+            <div class="social " style="text-align: center;">
+                <a href="https://www.youtube.com/c/fxmotion-ir"><img height="30px"  src="/images/icons/youtube.svg" alt=""></a>
+                <a href="mailto:fxmotion7@gmail.com?subject=Contact%20to%20%20fxmotion&body=Hi"><img height="30px"  src="/images/icons/e-mail.svg" alt=""></a>
+                <a href="https://www.aparat.com/FXMotion"><img height="30px"  src="/images/icons/aparat.svg" alt=""></a>
+                <a href="https://www.instagram.com/fxmotion_ir"><img height="30px"  src="/images/icons/instagram.svg" alt=""></a>
+            </div>
+            
+        </div>
+    </div>
+</div>

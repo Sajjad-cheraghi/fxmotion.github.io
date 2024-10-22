@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>---</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
+</head>
+
+<body>
+    <header>Loading...</header>
+    <nav>Loading...</nav>
+
+
+
+    <div class="main-container">
+        <div class="content">
+            <section id="articles" class="" category="">
+                <div id="custom_fields" download_url="" video_url=""></div>
+                <img id="feature-image" src="" alt="">
+                <span id="excerept"></span>
+
+
+
+
+                <!-- Slideshow container -->
+                <div>
+                    <style>
+                        * {
+                            box-sizing: border-box
+                        }
+
+                        /* Slideshow container */
+                        .slideshow-container {
+                            max-width: 800px;
+                            width: 70%;
+                            position: relative;
+                            margin: auto;
+                        }
+
+                        /* Hide the images by default */
+                        .mySlides {
+                            display: none;
+                        }
+
+                        /* Next & previous buttons */
+                        .prev,
+                        .next {
+                            cursor: pointer;
+                            position: absolute;
+                            top: 50%;
+                            width: auto;
+                            margin-top: -22px;
+                            padding: 16px;
+                            color: white;
+                            font-weight: bold;
+                            font-size: 18px;
+                            transition: 0.6s ease;
+                            border-radius: 0 3px 3px 0;
+                            user-select: none;
+                        }
+
+
+                        /* Caption text */
+                        .text {
+                            color: #818181;
+                            font-size: 15px;
+                            padding: .5rem 12px;
+                            position: absolute;
+                            bottom: 0 rem;
+                            width: 100%;
+                            text-align: center;
+                        }
+
+                        /* Number text (1/3 etc) */
+                        .numbertext {
+                            color: #f2f2f2;
+                            font-size: 12px;
+                            padding: 8px 12px;
+                            position: absolute;
+                            top: 0;
+                        }
+
+                        /* The dots/bullets/indicators */
+
+
+
+
+                        /* Fading animation */
+                        .fade {
+
+                            animation: fade ease-in-out 2.5s;
+
+                        }
+
+                        @keyframes fade {
+                            0% {
+                                opacity: .0;
+                            }
+
+                            35% {
+                                opacity: 1;
+                            }
+
+                            65% {
+                                opacity: 1;
+                            }
+
+                            100% {
+                                opacity: .0;
+                            }
+
+                        }
+                    </style>
+                    <div class="slideshow-container">
+
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade">
+                            <div class="numbertext">1</div>
+                            <img src="/images/posts/01-Premiere-Pro-Step-one.jpg" style="width:100%">
+                            <div class="text">قدم اول در پریمیر پرو</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">2</div>
+                            <img src="/images/posts/02-Premiere-pro-requirement.jpg" style="width:100%">
+                            <div class="text">پیشنیاز در پریمیر پرو</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">3</div>
+                            <img src="/images/posts/03-Work-Space.jpg" style="width:100%">
+                            <div class="text">محیط کاری پریمیر پرو</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">4</div>
+                            <img src="/images/posts/04-Impporting-Footages.jpg" style="width:100%">
+                            <div class="text">ایمپورت کردن در پریمیر پرو</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">5</div>
+                            <img src="/images/posts/Rendering.jpg" style="width:100%">
+                            <div class="text">رندر کردن و ساخت ویدئو</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">6</div>
+                            <img src="/images/posts/06-effects-Controll-and-Properties.jpg" style="width:100%">
+                            <div class="text">پراپرتیها در پریمیر</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">7</div>
+                            <img src="/images/posts/Texts.jpg" style="width:100%">
+                            <div class="text">نوشته ها در پریمیر پرو</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">8</div>
+                            <img src="/images/posts/Premiere-Pro.jpg" style="width:100%">
+                            <div class="text">زاویه ها در پریمیر</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">9</div>
+                            <img src="/images/posts/09-Preset-and-motionblur.jpg" style="width:100%">
+                            <div class="text">پریستها در پریمیر</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">10</div>
+                            <img src="/images/posts/10-Adjustment-Layer.jpg" style="width:100%">
+                            <div class="text">ادجاستمنت لایه در پریمیر پرو</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">11</div>
+                            <img src="/images/posts/11_Dynamic_Link_.jpg" style="width:100%">
+                            <div class="text">اتصال پریمیر پرو</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">12</div>
+                            <img src="/images/posts/12-Premiere-Pro-2025-سجاد چراغی.jpg" style="width:100%">
+                            <div class="text">پریمیر پرو 2025 جدیدی!</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">13</div>
+                            <img src="/images/posts/15-Track-Selection-Tool-.jpg" style="width:100%">
+                            <div class="text">ابزار ترک سلکت</div>
+                        </div>
+
+
+
+                    </div>
+                    <script>
+                        let slideIndex = 0;
+                        showSlides();
+
+                        function showSlides() {
+                            let i;
+                            let slides = document.getElementsByClassName("mySlides");
+                            for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";
+                            }
+                            slideIndex++;
+                            if (slideIndex > slides.length) {
+                                slideIndex = 1
+                            }
+                            slides[slideIndex - 1].style.display = "block";
+                            setTimeout(showSlides, 2500); // Change image every 2 seconds
+                        }
+                    </script>
+                </div>
+                <br>
+                <br>
+                <div style="background-color: #cacaca21; margin: 1rem;padding: 1rem;border-radius: 1rem; ">
+                    <h1 id="title" style="text-align: center; ">به افیکس موشن خوش آمدید</h1>
+                    <p style="text-align: center; font-size: 2.3rem;font-weight: 200; padding:0 3rem;"> آموزش
+                        هنر ادیت تصویر و ساخت ویدئو</p>
+                    <p style="text-align: center; font-size: 1.1rem;font-weight: 300;"> ما به شما کمک می‌کنیم تا با
+                        دنیای (افکت‌ها)
+                        آشنا شوید و از تاثیر آن‌ها در تصاویرتان بهره‌مند شوید</p>
+                </div>
+                <br>
+                <br>
+                <!-- timeline -->
+                <style>
+                    .timeline {
+                        box-sizing: border-box;
+                        margin: 1rem !important;
+                    }
+
+                    .timeline-box {
+                        box-sizing: border-box;
+                        padding: 1rem !important;
+                    }
+
+                    .timeline-box:nth-child(odd) {
+                        border-right: 2px solid #cacaca;
+                        border-top: #cacaca 2px solid;
+
+                        padding: 1rem;
+                        display: flex;
+                        position: relative;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        align-items: center;
+
+                        margin-right: 0rem;
+                        gap: 1rem;
+                        border-radius: 0 3rem 0 0;
+                    }
+
+                    .timeline-box:nth-child(even) {
+                        border-left: 2px solid #cacaca;
+                        border-top: #cacaca 2px solid;
+                        padding: 1rem;
+                        display: flex;
+                        position: relative;
+                        flex-direction: row-reverse;
+                        flex-wrap: nowrap;
+                        align-items: center;
+
+                        margin-right: 0rem;
+                        gap: 1rem;
+                        border-radius: 3rem 0 0 0rem;
+                    }
+
+
+
+                    .timeline-box::before {
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        background-color: #cacaca;
+                        border-radius: 50%;
+                        width: 10px;
+                        height: 10px;
+                        right: 50%;
+                        top: -.4rem;
+                    }
+
+                    .timeline-box .right {
+                        max-width: 200px !important;
+
+                    }
+
+                    .timeline-box .left {
+                        display: flex;
+                        gap: 0;
+                        flex-direction: column;
+                        align-items: start;
+                        flex-grow: 1;
+                        border-right: #cacaca 1px solid;
+                        padding: 1rem;
+                    }
+
+                    .timeline-box .left .first-box {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        gap: 1rem;
+                    }
+
+                    .timeline-box .left .second-box {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: start;
+                        align-items: center;
+                        gap: .5rem;
+                    }
+
+                    .timeline-box h3 {
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                    .timeline-box p {
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                    .timeline-box a {
+                        box-sizing: border-box !important;
+                        display: inline-block;
+                        text-align: left;
+                    }
+                    @media screen  and (max-width: 850px){
+                        .timeline-box{flex-direction: column!important;}
+                    }
+                </style>
+                <h2 style="text-align: center; font-size: 1rem;color: #cacaca;">تایم لاین پریمیر پرو (Adobe Premiere Pro)</h2>
+                <div class="timeline">
+
+
+
+
+
+
+
+                    <a href="/" class="timeline-box">
+                        <div class="right"><img class="" src="/images/posts/02-Premiere-pro-requirement.jpg" alt="">
+                        </div>
+                        <div class="left">
+                            <div class="first-box">
+                                <h3>قسمت 01- حداقل سیستم مورد نیاز برای کار با پریمیر پرو Premiere Pro</h3>
+                            </div>
+                            <div class="second-box">
+                                <p>توضیح مختصر در مورد حداقل سیستم مورد نیاز برای اجرای نرم‌افزار پریمیر پرو.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/" class="timeline-box">
+                        <div class="right"><img class="" src="/images/posts/02-Premiere-pro-59min.jpg" alt=""></div>
+                        <div class="left">
+                            <div class="first-box">
+                                <h3>قسمت 02- آموزش کامل پریمیر پرو در 59 دقیقه (صفر تا صد در یک ویدئو)</h3>
+                            </div>
+                            <div class="second-box">
+                                <p>آموزش جامع و کامل نرم‌افزار پریمیر پرو تنها در 59 دقیقه.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/" class="timeline-box">
+                        <div class="right"><img class="" src="/images/posts/01-Premiere-Pro-Step-one.jpg" alt=""></div>
+                        <div class="left">
+                            <div class="first-box">
+                                <h3>قسمت 03- آموزش ادیت ویدئو در پریمیر قسمت 1 ( قدم اول برای ادیتور شدن )</h3>
+                            </div>
+                            <div class="second-box">
+                                <p>شروعی قدرتمند برای کسانی که به دنبال یادگیری ویرایش ویدئو با پریمیر پرو هستند.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/" class="timeline-box">
+                        <div class="right"><img class="" src="/images/posts/03-Work-Space.jpg" alt=""></div>
+                        <div class="left">
+                            <div class="first-box">
+                                <h3>قسمت 04- قسمت 2 پریمیر پرو (Work Space)</h3>
+                            </div>
+                            <div class="second-box">
+                                <p>آشنایی با محیط کاری نرم‌افزار پریمیر و نحوه تنظیمات آن.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/" class="timeline-box">
+                        <div class="right"><img class="" src="/images/posts/04-Impporting-Footages.jpg" alt=""></div>
+                        <div class="left">
+                            <div class="first-box">
+
+                                <h3>قسمت 05- قسمت 3 پریمیر پرو (Import) 5 روش مختلف</h3>
+                            </div>
+                            <div class="second-box">
+                                <p>نحوه وارد کردن فایل‌های ویدئویی به پروژه با پنج روش مختلف در پریمیر.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/" class="timeline-box">
+                        <div class="right"><img class="" src="/images/posts/05-Sequence-and-timeline.jpg" alt=""></div>
+                        <div class="left">
+                            <div class="first-box">
+                                <h3>قسمت 06- قسمت 4 پریمیر پرو ( سکانس و تایم لاین ) Sequence - Timeline</h3>
+                            </div>
+                            <div class="second-box">
+                                <p>نحوه کار با سکانس و تایم‌لاین برای مدیریت و ویرایش ویدئو.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/" class="timeline-box">
+                        <div class="right"><img class="" src="/images/posts/06-effects-Controll-and-Properties.jpg"
+                                alt=""></div>
+                        <div class="left">
+                            <div class="first-box">
+                                <h3>قسمت 07- قسمت 5 پریمیر پرو تنظیمات ( پراپرتیها و افکتس کنترل ) Effects Controls</h3>
+                            </div>
+                            <div class="second-box">
+                                <p>نحوه استفاده از کنترل‌های افکت‌ها و پراپرتی‌ها برای تنظیمات دقیق ویدئو.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/" class="timeline-box">
+                        <div class="right"><img class="" src="/images/posts/Rendering.jpg" alt=""></div>
+                        <div class="left">
+                            <div class="first-box">
+                                <h3>قسمت 08- قسمت 6 پریمیر پرو - خروجی گرفتن ویدئو | Export video</h3>
+                            </div>
+                            <div class="second-box">
+                                <p>آموزش گام به گام نحوه خروجی گرفتن ویدئو از پروژه در پریمیر پرو.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/" class="timeline-box">
+                        <div class="right"><img class="" src="/images/posts/Texts.jpg" alt=""></div>
+                        <div class="left">
+                            <div class="first-box">
+                                <h3>قسمت 09- قسمت 7 پریمیر پرو - ساخت نوشته | Text In Premiere Pro</h3>
+                            </div>
+                            <div class="second-box">
+                                <p>نحوه ساخت و ویرایش متون در پریمیر پرو برای استفاده در ویدئوها.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/" class="timeline-box">
+                        <div class="right"><img class="" src="/images/posts/09-Preset-and-motionblur.jpg" alt=""></div>
+                        <div class="left">
+                            <div class="first-box">
+                                <h3>قسمت 10- قسمت 8 پریمیر پرو - پریست و انواع حرکت دهی و موشن بلور | Motion Blur</h3>
+                            </div>
+                            <div class="second-box">
+                                <p>آشنایی با نحوه حرکت دادن المان‌ها و اعمال موشن بلور در پریمیر پرو.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/" class="timeline-box">
+                        <div class="right"><img class="" src="/images/posts/Premiere-Pro.jpg" alt=""></div>
+                        <div class="left">
+                            <div class="first-box">
+                                <h3>قسمت 11- آموزش لرزشگیری در پریمیر پرو Premiere Pro Stablizing</h3>
+                            </div>
+                            <div class="second-box">
+                                <p>آموزش لرزشگیری ویدئوها با استفاده از قابلیت Stablizing در پریمیر پرو.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/" class="timeline-box">
+                        <div class="right"><img class="" src="/images/posts/10-Adjustment-Layer.jpg" alt=""></div>
+                        <div class="left">
+                            <div class="first-box">
+                                <h3>قسمت 12- قسمت 9 پریمیر پرو - صرفه جویی در افکت با ساخت ادجاستمنت لایر - Adjustment
+                                    Layer</h3>
+                            </div>
+                            <div class="second-box">
+                                <p>آموزش ساخت و استفاده از ادجاستمنت لایر برای بهینه‌سازی و صرفه‌جویی در اعمال افکت‌ها.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/" class="timeline-box">
+                        <div class="right"><img class="" src="/images/posts/12-Premiere-Pro-2025-سجاد چراغی.jpg" alt="">
+                        </div>
+                        <div class="left">
+                            <div class="first-box">
+                                <h3>قسمت 13- پریمیر پرو 2025 –
+
+                                    ویژگیهای جدید نرم‌افزار</h3>
+                            </div>
+                            <div class="second-box">
+                                <p>نگاهی به قابلیت‌های جدیدی که در نسخه 2025 پریمیر پرو اضافه شده‌اند.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/" class="timeline-box">
+                        <div class="right"><img class="" src="/images/posts/15-Track-Selection-Tool-.jpg" alt=""></div>
+                        <div class="left">
+                            <div class="first-box">
+                                <h3>قسمت 14- آموزش پریمیر پرو قسمت 11 - ابزار ترک سلکت فوروارد (Track Selection Forward
+                                    Tool)</h3>
+                            </div>
+                            <div class="second-box">
+                                <p>آشنایی با ابزار ترک سلکت فوروارد برای ویرایش سریع‌تر ویدئوها در پریمیر پرو.</p>
+                            </div>
+                        </div>
+                    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+            </section>
+            <aside>Loading...</aside>
+        </div>
+    </div>
+    <footer style="background-color: #f5f4f2;">Loading...</footer>
+
+
+</body>
+
+</html>

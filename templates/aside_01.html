@@ -1,0 +1,138 @@
+<style>
+    aside {
+        display: flex;
+        flex-direction: column;
+        gap: 3.5rem;
+        align-items: center;
+    }
+
+    section.aside {
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        align-items: center;
+        justify-content: start;
+    }
+
+    section.aside h3 {
+        margin: 0;
+    }
+
+    section.aside p {
+        margin: 0;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: .2rem;
+        padding: .5rem;
+    }
+    .social a{
+        padding: 0;
+        margin: 0;
+        line-height: 0;
+    }
+    #side-feature-image{
+        padding:.5rem;
+    }
+</style>
+
+<section class="aside" id="side-page-detail">
+    <a id="side-video-btn-2" href="---"><img id="side-feature-image"
+            src="/images/posts/Run-Script-On-Adobe-Applications.jpg" alt=""></a>
+    <p style="text-align: center;" id="side-video-txt">ویدئو آموزشی این موضوع را از اینجا ببینید</p>
+    <a id="side-download-btn" href="---" class="btn-blue big-font" title="دانلود فایل مربوطه" download>دانلود</a>
+    <a id="side-video-btn" href="---" class="btn-red big-font" title="ویدئوی این موضوع">لینک آموزش</a>
+</section>
+
+<section class="aside">
+    <video width="100px" src="/images/sajjad-video.mp4" autoplay loop></video>
+
+
+    <p>سجاد چراغی</p>
+    <h3>اف ایکس موشن</h3>
+    
+
+    
+    <a href="https://www.youtube.com/@fxmotion-ir=1" class="btn-red round">در یوتیوب دنبال کنید</a>
+    <p style="text-align: center;">در شبکه های اجتماعی منتظرتونم</p>
+</section>
+
+<!-- <section class="aside" >
+    <div class="grid-container"
+        style="text-align: center; background-color: rgba(0, 0, 0, 0.1);padding:.5rem .3rem ;border-radius:.5rem;">
+
+        <a href="/how-to-use-fxmotion-liveview/" class="grid-item"><img width="95%" title="Use fxmotion Liveview"
+                src="/images/posts/how-to-use-fxmotion-live-view-extension.jpg" alt=""></a>
+        <a href="/how-to-create-fxmotion-liveview-package/" class="grid-item"><img width="95%" title="Make Package for Liveview"
+                src="/images/posts/how-to-create-fxmotion-liveview-package.png" alt=""></a>
+
+
+    </div>
+</section> -->
+
+<section class="aside">
+    <p>اشتراک گذاری </p>
+    <div class="row-container" style="padding-top: 15px;">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.fxmotion.ir" title="Share This Page"
+            target="_blank"><img width="30px" src="/images/icons/facebook.png" alt=""></a>
+        <a href="https://twitter.com/intent/tweet?url=https://www.fxmotion.ir&text=Free-Extension"
+            title="Share This Page" target="_blank"><img width="30px" src="/images/icons/x.png" alt=""></a>
+        <a href="https://api.whatsapp.com/send?text=Free-extension%20https://www.fxmotion.ir" title="Share This Page"
+            target="_blank"><img width="30px" src="/images/icons/whatsap.png" alt=""></a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.fxmotion.ir" title="Share This Page"
+            target="_blank"><img width="30px" src="/images/icons/linkedin.png" alt=""></a>
+    </div>
+
+</section>
+
+
+
+<script>
+    let cat = $("#articles").attr("category")
+    if (cat == "") {
+        let f_img = $("#feature-image").attr("src")
+        let download = $("#custom_fields").attr("download_url")
+        let video_tut = $("#custom_fields").attr("video_url")
+
+        
+        if (f_img != "") {
+            $("#side-feature-image").attr("src", f_img)
+        } else {
+            $("#side-feature-image").remove()
+        }
+
+        if ( download != "") {
+            $("#side-download-btn").attr("href", download)
+        } else {
+            $("#side-download-btn").remove()
+        }
+
+        if (video_tut != "") {
+            $("#side-video-btn").attr("href", video_tut)
+        } else {
+            $("#side-video-btn").remove()
+            $("#side-video-txt").remove()
+        }
+
+     
+
+
+
+
+    } else {
+        $("#side-page-detail").remove()
+
+    }
+</script>
+<!-- <section>
+    <strong>Categories:</strong>
+    <ul>
+        <li><a href="">Free Downloads</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">Tutorials</a></li>
+    </ul>
+</section> -->
