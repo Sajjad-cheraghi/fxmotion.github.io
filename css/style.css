@@ -3,10 +3,12 @@
       src: url(/fonts/iyv.woff);
 }
 
-
+*{
+    font-family: ac, Verdana, Geneva, Tahoma, sans-serif
+}
 body {
     margin: 0;
-    font-family: ac, Verdana, Geneva, Tahoma, sans-serif
+    font-family: ac, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
